@@ -1,0 +1,65 @@
+.auth-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.login-form,
+.signup-form {
+
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 30px 4px;
+    background-color:  rgb(223, 207, 190, 0.8);
+    margin-bottom: 20px;
+    width: 400px; /* Optional: Set a width for the forms */
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column */
+    align-items: center;
+    font-weight: bold;
+}
+
+.login-form input,
+.signup-form input{
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.login-form h2,
+.signup-form h2{
+    margin-bottom: 20px;
+    transform: scale(1.2);
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 1px 5px;
+    cursor: pointer;
+}
+
+#show-pass{
+    accent-color: rgb(165, 108, 0);
+}
+
+.show-pass-div label{
+    padding-left: 5px;
+}
+.input-container {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 30%;
+    right:10px;
+    pointer-events: none; 
+    color: #000000;
+}
+
